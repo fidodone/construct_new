@@ -3,27 +3,27 @@ from setuptools import setup
 from construct_new.version import version_string
 
 setup(
-    name = "construct_new",
-    version = version_string,
-    packages = [
-        'construct',
-        'construct.lib',
+    name="construct_new",  # Novo nome do módulo
+    version=version_string,
+    packages=[
+        'construct_new',  # Atualizado para o novo nome
+        'construct_new.lib',  # Atualizado para o novo nome
     ],
-    license = "MIT",
-    description = "A powerful declarative symmetric parser/builder for binary data",
-    long_description = open("README.rst").read(),
-    platforms = ["POSIX", "Windows"],
-    url = "http://construct.readthedocs.org",
-    project_urls = {
-        "Source": "https://github.com/construct/construct",
+    license="MIT",
+    description="A powerful declarative symmetric parser/builder for binary data",
+    long_description=open("README.rst").read(),
+    platforms=["POSIX", "Windows"],
+    url="http://construct.readthedocs.org",
+    project_urls={
+        "Source": "https://github.com/construct/construct",  # Atualize para o URL do fork
         "Documentation": "https://construct.readthedocs.io/en/latest/",
-        "Issues": "https://github.com/construct/construct/issues",
+        "Issues": "https://github.com/construct/construct/issues",  # Atualize para o URL do fork
     },
-    author = "Arkadiusz Bulski, Tomer Filiba, Corbin Simpson",
-    author_email = "arek.bulski@gmail.com, tomerfiliba@gmail.com, MostAwesomeDude@gmail.com",
-    python_requires = ">=3.8",
-    install_requires = [],
-    extras_require = {
+    author="Arkadiusz Bulski, Tomer Filiba, Corbin Simpson",
+    author_email="arek.bulski@gmail.com, tomerfiliba@gmail.com, MostAwesomeDude@gmail.com",
+    python_requires=">=3.8",
+    install_requires=[],
+    extras_require={
         "extras": [
             "numpy",
             "arrow",
@@ -33,8 +33,9 @@ setup(
             "cryptography",
         ],
     },
-    keywords = [
+    keywords=[
         "construct",
+        "construct_new",  # Inclui o novo nome como palavra-chave
         "kaitai",
         "declarative",
         "data structure",
@@ -50,7 +51,7 @@ setup(
         "packer",
         "unpacker",
     ],
-    classifiers = [
+    classifiers=[
         "Development Status :: 5 - Production/Stable",
         "License :: OSI Approved :: MIT License",
         "Intended Audience :: Developers",
