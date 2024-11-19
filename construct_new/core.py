@@ -2,9 +2,9 @@
 
 import struct, io, binascii, itertools, collections, pickle, sys, os, hashlib, importlib, importlib.machinery, importlib.util
 
-from construct.lib import *
-from construct.expr import *
-from construct.version import *
+from construct_new.lib import *
+from construct_new.expr import *
+from construct_new.version import *
 
 
 #===============================================================================

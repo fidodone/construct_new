@@ -1,4 +1,4 @@
-from construct import *
+from construct_new import *
 
 
 identifier = Struct(

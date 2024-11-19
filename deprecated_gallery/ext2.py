@@ -2,7 +2,7 @@
 Extension 2 (ext2) used in Linux systems
 """
 
-from construct import *
+from construct_new import *
 
 Char = SLInt8
 UChar = ULInt8

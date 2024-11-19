@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 from setuptools import setup
-from construct.version import version_string
+from construct_new.version import version_string
 
 setup(
     name = "construct",
