@@ -3,7 +3,7 @@ from setuptools import setup
 from construct_new.version import version_string
 
 setup(
-    name = "construct",
+    name = "construct_new",
     version = version_string,
     packages = [
         'construct',
